@@ -23,3 +23,23 @@ console.log(x);
 console.log(ageJonas > ageSarah); //>, <, <=, >=, ==, ===
 const isFullAge = ageSarah >= 18;
 console.log(now - 1991 > now - 2019);
+
+// "==" vs "==="
+const age = 18;
+if (age == '18'){
+    console.log("loose equality");
+}
+if (age === '18'){
+    console.log("strict equality");
+}
+
+const number = Number(prompt("What is your favourite number?"));
+console.log(number);
+
+if (number === 23){
+    console.log('cool!');
+} else if (!number){
+    console.log('Other than number');
+} else {
+    console.log('loose!')
+}

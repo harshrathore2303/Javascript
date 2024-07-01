@@ -1,0 +1,13 @@
+.heading {
+    color: #ffffff;
+    background-color: rgb(65, 65, 65);
+}
+body {
+    background-color: rgb(41, 177, 177);
+}
+button {
+    background-color: plum;
+    color: #5e2b2b;
+    font-weight: bold;
+    
+}
